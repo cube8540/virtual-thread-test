@@ -1,0 +1,10 @@
+spring:
+  threads:
+    virtual:
+      enabled: false
+  r2dbc:
+    username: root
+    password: 1234
+    url: r2dbc:mariadb://192.168.0.6:3306/virtual_thread
+server:
+  port: 8082

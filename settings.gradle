@@ -1,0 +1,5 @@
+rootProject.name = 'virtual-thread-test'
+include 'virtual-thread'
+include 'webflux-r2dbc'
+include 'webflux-virtualthread'
+
